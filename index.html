@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FT 999 FF - Cyber Security & Ethical Hacking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>FT 999 FF</h1>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#tools">Tools & Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#booking">Book Now</a></li>
+        <li><a href="#" onclick="toggleLogin()">Login</a></li>
+        <li><a href="#" onclick="logout()" id="logout" style="display:none;">Logout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Welcome to FT 999 FF</h2>
+    <p>Your ultimate source for Cyber Security & Ethical Hacking knowledge</p>
+  </section>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>We empower the next generation of cyber warriors. FT 999 FF offers top-tier tutorials, tools, and training in ethical hacking and cybersecurity, specifically crafted for students and young professionals.</p>
+  </section>
+
+  <section id="tools">
+    <h2>Tools & Services</h2>
+    <ul>
+      <li>🔍 Network Scanning</li>
+      <li>🛡️ Vulnerability Testing</li>
+      <li>🔐 Penetration Testing</li>
+      <li>📁 Secure File Transfers</li>
+    </ul>
+  </section>
+
+  <section id="testimonials">
+    <h2>What Students Say</h2>
+    <blockquote>“The best channel to learn ethical hacking from scratch. FT 999 FF rocks!” - Amaan R.</blockquote>
+    <blockquote>“I got my first cyber internship thanks to the tutorials!” - Priya D.</blockquote>
+  </section>
+
+  <section id="login-form" class="modal">
+    <h2>Login</h2>
+    <input type="text" id="username" placeholder="Username"><br>
+    <input type="password" id="password" placeholder="Password"><br>
+    <button onclick="login()">Login</button>
+    <p id="login-message"></p>
+  </section>
+
+  <section id="booking">
+    <h2>Book a Session</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <input type="date" required>
+      <textarea placeholder="Message or topic of interest"></textarea>
+      <button type="submit">Book Now</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 FT 999 FF. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
